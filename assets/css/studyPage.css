@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css?family=Avenir");
+
+@media screen and (max-width: 1239px) {
+    .yellowRole, .whiteOur, .blackRole, .studyTxtDescription {
+        font-size: 60px !important;
+    }
+
+    .middleOur {
+        padding: 130px 30px 38px 30px !important;
+    }
+
+    .ourApproach {
+        padding: 100px 30px 38px 30px !important;
+    }
+
+    .yellowResult, .blackResult {
+        font-size: 50px !important;
+    }
+
+    .ourResultMedium {
+        font-size: 30px !important;
+    }
+
+    .ourResultSmall {
+        font-size: 25px !important;
+    }
+
+    .ourResult {
+        padding-right: 30px !important;
+        padding-left: 30px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .studyTxtTop {
+        padding-top: 60px !important;
+        padding-left: 0 !important;
+    }
+
+    .titanMax {
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+
+    .whatBottom {
+        text-align: center !important;
+    }
+
+    .ourRoleLarge {
+        font-size: 25px !important;
+    }
+
+    .yellowStick {
+        margin-bottom: 30px !important;
+    }
+
+    .ourRoleSmall {
+        font-size: 18px !important;
+    }
+
+    .ourApproach {
+        min-width: 270px !important;
+        text-align: center !important;
+    }
+
+    .checkIconMargin {
+        max-width: 100% !important;
+        /*min-width: 270px !important;*/
+        text-align: left !important;
+    }
+
+    .gameCheck {
+        margin: auto !important;
+        max-width: 400px !important;
+        text-align: center !important;
+    }
+
+    .imgApproach {
+        padding-top: 30px;
+    }
+
+    .imgApproach {
+        padding-left: 0 !important;
+        margin: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .yellowRole, .whiteOur, .blackRole, .studyTxtDescription {
+        font-size: 40px !important;
+    }
+
+    .middleOur {
+        padding-top: 230px !important;
+    }
+
+    .checkIcon {
+        max-width: 60px !important;
+    }
+
+    .ourApproach, .ourApproach {
+        padding-top: -70px !important;
+    }
+
+    .yellowResult, .blackResult {
+        font-size: 25px !important;
+    }
+
+    .ourResultMedium {
+        font-size: 25px !important;
+    }
+
+    .ourResultSmall {
+        font-size: 20px !important;
+    }
+
+    .ourResult {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .stickLeftMargin {
+        padding-top: 30px !important;
+        padding-left: 0px !important;
+    }
+
+    .whatBottom {
+        padding-bottom: 20px !important;
+    }
+
+    .checkIcon {
+        padding: 5px !important;
+        max-width: 30px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .studyTxtTop {
+        padding-top: 160px !important;
+    }
+
+    .yellowRole, .whiteOur, .blackRole, .studyTxtDescription {
+        font-size: 25px !important;
+    }
+
+    .middleOur {
+        padding-top: 180px !important;
+    }
+
+    .ourRoleLarge {
+        font-size: 20px !important;
+    }
+
+    .ourRoleSmall {
+        font-size: 13px !important;
+    }
+
+    .checkIcon {
+        max-width: 20px !important;
+    }
+
+    .ourApproach {
+        padding-top: 100px !important;
+    }
+
+    .ourResultMedium {
+        font-size: 20px !important;
+    }
+
+    .ourResultSmall {
+        font-size: 15px !important;
+    }
+
+    .ourResult {
+        min-width: 300px !important;
+    }
+}
+
+/**
+ * navBar
+ */
+body {
+    margin: 0 auto;
+    max-width: 1593px;
+}
+
+.studyHeader {
+    margin: 0 auto;
+    max-width: 1593px;
+    height: 4400px;
+    background-position: center;
+    background-size: cover;
+    opacity: 3;
+    background-image: url("../images/studyPage/studyPageBackground.jpg");
+}
+
+.studyTxtTop {
+    padding-top: 218px;
+    padding-left: 200px;
+    text-align: left !important;
+}
+
+.titanMax {
+    width: 100%;
+    max-width: 820px;
+}
+
+.yellowRole, .yellowResult, .blackRole, .blackResult, .whiteOur, .studyTxtDescription {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.yellowRole {
+    color: #ff8602 !important;
+}
+
+.blackRole {
+    color: #000000 !important;
+}
+
+.whiteOur {
+    color: #ffffff !important;
+}
+
+/**
+ * OUr - Role
+ */
+.middleOur, .ourApproach {
+    padding: 89px 215px 38px 218px;
+    color: #000000;
+}
+
+.yellowStick {
+    margin-top: 5px;
+    margin-bottom: 65px;
+    border: 5px solid #ff7c1d;
+    background-color: #ff7c1d;
+}
+
+.lenProject {
+    max-width: 80%;
+}
+
+.lenContract {
+    max-width: 100%;
+}
+
+.lenResearch {
+    max-width: 63%;
+}
+
+.lenFan {
+    max-width: 96%;
+}
+
+.ourRoleLarge {
+    font-size: 35px;
+}
+
+.ourRoleSmall {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.stickLeftMargin {
+    padding-left: 50px;
+}
+
+/**
+ * Our - Approach
+ */
+.ourApproach {
+    max-width: 1593px;
+    height: 100%;
+    background-color: #242423 !important;
+}
+
+.tacked, .gamePlan, .whiteApproach {
+    color: white !important;
+}
+
+.tacked {
+    padding-bottom: 50px;
+    font-size: 26px;
+}
+
+.checkIcon {
+    padding-top: 7px;
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+.checkIconMax {
+    width: 100%;
+    max-width: 90px;
+}
+
+.gameMargin {
+    padding-bottom: 50px;
+}
+
+.gamePlan {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.imgApproach {
+    text-align: right !important;
+    padding-left: 30px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ourResult {
+    padding: 100px 218px 75px 218px;
+}
+
+.ourResultMedium {
+    font-size: 44px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.ourResultSmall {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.footerStudy {
+     margin: 0 auto;
+     max-width: 1593px;
+     height: 272px;
+     background-position: center;
+     background-size: cover;
+     background-image: url("../images/studyPage/footerBackgroundTop.png");
+ }
+
+.yellowResult {
+    color: #ff8602 !important;
+}
+
+.blackRole {
+    color: #000000 !important;
+}

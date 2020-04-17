@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Avenir");
+
+@media screen and (max-width: 1239px) {
+
+    .middleFansDone, .categoryDone, .middleHighlightsDone {
+        padding: 70px 100px 0 100px !important;
+    }
+
+    .byTheNumbers {
+        padding: 80px 100px 0 100px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .doneTxtTop {
+        padding-top: 100px !important;
+        padding-left: 100px !important;
+    }
+
+    .titleBottom {
+        padding-bottom: 40px !important;
+    }
+
+    .yellowDone, .whiteDone, .blackDone {
+        font-size: 60px !important;
+    }
+
+    .middleFansDone {
+        padding: 100px 100px 0 100px !important;
+    }
+
+    .middleHighlightsDone {
+        padding: 100px 100px 0 100px !important;
+    }
+
+    .iconTableDone {
+        padding-top: 60px !important;
+    }
+
+    .byTheNumbersMax {
+        max-width: 100% !important;
+    }
+
+    .bottomDone {
+        padding-bottom: 40px !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .doneTxtTop {
+        margin: auto !important;
+        padding-top: 100px !important;
+        padding-left: 0 !important;
+    }
+
+    .titleBottom {
+        padding-bottom: 30px !important;
+    }
+
+    .yellowDone, .whiteDone, .blackDone {
+        font-size: 45px !important;
+    }
+
+    .doneTxtTop {
+        text-align: center !important;
+    }
+
+    .middleFansDone {
+        margin: auto !important;
+        padding: 170px 0 0 !important;
+        text-align: center !important;
+    }
+
+    .blackSmallDone {
+        font-size: 18px !important;
+    }
+
+    .iconTableDone {
+        padding-top: 40px !important;
+    }
+
+    .categoryDone {
+        padding: 50px 30px 0 30px !important;
+    }
+
+    .byTheNumbers {
+        padding: 80px 50px 0 50px !important;
+    }
+
+    .middleHighlightsDone {
+        margin: auto !important;
+        padding: 70px 0 0 !important;
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .backgroundByTheNumbers {
+        text-align: center !important;
+    }
+
+    .whiteMediumDone {
+        font-size: 35px !important;
+    }
+
+    .whiteSmallDone {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .titleBottom {
+        padding-bottom: 20px !important;
+    }
+
+    .yellowDone, .whiteDone, .blackDone {
+        font-size: 24px !important;
+    }
+
+    .middleFansDone {
+        padding: 240px 0 0 0 !important;
+        min-width: 156px !important;
+    }
+
+    .blackSmallDone {
+        font-size: 12px !important;
+    }
+
+    .iconTableDone {
+        padding-top: 20px !important;
+    }
+
+    .categoryDone {
+        padding: 20px 10px 0 10px !important;
+    }
+
+    .byTheNumbers {
+        margin: auto !important;
+        padding: 80px 0 0 0 !important;
+        min-width: 200px !important;
+    }
+}
+
+/**
+ * navBar
+ */
+.whatWeveDoneHeader {
+    margin: 0 auto;
+    max-width: 1593px;
+    height: 4400px;
+    background-position: center;
+    background-size: cover;
+    opacity: 3;
+    background-image: url("../images/whatWeveDone/whatWeveDoneBackground.jpg");
+}
+
+.lineHeightDone {
+    line-height: 1 !important;
+}
+
+.doneTxtTop {
+    padding-top: 228px;
+    padding-left: 228px;
+    text-align: left;
+}
+
+.whatDoneMax {
+    width: 100%;
+    max-width: 1150px;
+}
+
+.titleBottom {
+    padding-bottom: 71px;
+}
+
+.yellowDone, .whiteDone, .blackDone {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.yellowDone {
+    color: #ff8602 !important;
+}
+
+.whiteDone {
+    color: #ffffff !important;
+}
+
+.blackDone {
+    color: #000000 !important;
+}
+
+.blackSmallDone {
+    font-size: 24px;
+    color: #000000;
+}
+
+/**
+ * Raving Fans
+ */
+.middleFansDone, .categoryDone {
+    padding: 100px 213px 0 213px;
+}
+
+/**
+ * Icon Table
+ */
+.iconTableDone {
+    padding-top: 80px;
+}
+
+/**
+ * Category
+ */
+.categoryDoneWholeMax {
+    min-width: 253px;
+}
+
+.categoryDoneMax {
+    width: 100%;
+    max-width: 350px;
+}
+
+/**
+ * By the Numbers
+ */
+.byTheNumbers {
+    padding: 100px 213px 0 213px;
+}
+
+.backgroundByTheNumbers {
+    margin: 130px auto 0 auto;
+    max-width: 1593px;
+    height: 743px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/whatWeveDone/byTheNumbersBackground.png");
+}
+
+.bottomDone {
+    padding-bottom: 80px;
+    line-height: 0.1 !important;
+}
+
+.whiteMediumDone, .whiteSmallDone {
+    color: #ffffff;
+}
+.whiteMediumDone {
+    font-size: 52px;
+    line-height: 1;
+}
+
+.whiteSmallDone {
+    font-size: 24px;
+}
+
+.byTheNumbersMax {
+    width: 100%;
+    max-width: 335px;
+}
+
+.imgByTheNumbers {
+    padding-top: 80px;
+    width: 100%;
+    max-width: 1196px;
+}
+
+.middleHighlightsDone {
+    padding: 100px 213px 0 213px;
+}

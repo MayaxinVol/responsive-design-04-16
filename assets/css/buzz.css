@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css?family=Avenir");
+
+@media screen and (max-width: 1282px){
+    .blackSmallBuzz {
+        font-size: 17px !important;
+    }
+
+    .blackSuperTinyBuzz, .yellowSuperTinyBuzz {
+        font-size: 13px !important;
+    }
+
+    .yellowMiddleBuzz {
+        font-size: 25px !important;
+    }
+
+    .whiteMiddleBuzz {
+        font-size: 22px !important;
+    }
+
+    .middleBuzz {
+        padding-top: 250px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .blackHeader {
+        height: auto !important;
+    }
+
+    .buzzTxtTop {
+        padding-top: 50px !important;
+        padding-left: 0 !important;
+        margin: auto !important;
+        text-align: center !important;
+    }
+
+    .topThirdBuzz {
+        padding-top: 40px !important;
+    }
+
+    .buzzMax {
+        max-width: 100% !important;
+        text-align: center !important;
+    }
+
+    .yellowBuzz, .whiteBuzz, .blackBuzz {
+        font-size: 60px !important;
+    }
+
+    .middleBuzz {
+        padding-top: 190px !important;
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+
+    .peaceLeft, .peaceRight {
+        max-width: 50px !important;
+    }
+
+    .btnBuzz {
+        padding: 5px 20px 4px 20px !important;
+    }
+
+    .btnTwitterBuzz {
+        padding: 5px !important;
+        text-align: center !important;
+    }
+
+    .btnBg {
+        padding: 5px 10px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .buzzTxtTop {
+        padding-top: 150px !important;
+    }
+
+    .middleBuzz {
+        padding: 160px 20px 50px 20px !important;
+        text-align: center !important;
+    }
+
+    .buzzBottom {
+        padding-bottom: 20px !important;
+    }
+
+    .yellowBuzz, .whiteBuzz, .blackBuzz {
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blackSmallBuzz {
+        font-size: 15px !important;
+    }
+
+    .blackSuperTinyBuzz, .yellowSuperTinyBuzz {
+        font-size: 11px !important;
+    }
+
+    .yellowMiddleBuzz {
+        font-size: 22px !important;
+    }
+
+    .buzzCol, .marginLoad {
+        padding-right: 0 !important;
+    }
+
+    .marginLoad {
+        padding-bottom: 15px !important;
+    }
+
+    .buzzCol {
+        padding-top: 20px !important;
+    }
+
+    .btnBundle {
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .buzzTxtTop {
+        padding-top: 180px !important;
+    }
+
+    .middleBuzz {
+        padding: 150px 5px 50px 5px !important;
+        min-width: 250px !important;
+    }
+
+    .blackSmallBuzz {
+        font-size: 13px !important;
+    }
+
+    .yellowBuzz, .whiteBuzz, .blackBuzz {
+        font-size: 22px !important;
+    }
+
+    .yellowMiddleBuzz {
+        font-size: 17px !important;
+    }
+}
+
+/**
+ * navBar
+ */
+body {
+    margin: 0 auto;
+    max-width: 1593px;
+}
+
+.buzzHeader {
+    margin: 0 auto;
+    max-width: 1593px;
+    height: 3500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/buzz/buzzBackground.jpg");
+}
+
+.blackHeader {
+    height: 111px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.6;
+    background-color: #000000;
+}
+
+.buzzTxtTop {
+    padding-top: 170px;
+    padding-left: 200px;
+    text-align: left;
+}
+
+.buzzMax {
+    width: 100%;
+    max-width: 700px;
+}
+
+.buzzBottom {
+    padding-bottom: 50px;
+}
+
+.yellowBuzz, .whiteBuzz, .blackBuzz {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.yellowBuzz, .yellowMiddleBuzz, .yellowSmallBuzz, .yellowSuperTinyBuzz {
+    color: #ff8602 !important;
+}
+
+.yellowMiddleBuzz {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.whiteBuzz, .whiteMiddleBuzz {
+    color: #ffffff !important;
+}
+
+.blackBuzz, .blackSmallBuzz, .blackMiddleBuzz, .blackTinyBuzz, .blackSuperTinyBuzz {
+    color: #000000 !important;
+}
+
+.middleBuzz {
+    padding: 140px 215px 43px 212px;
+    /*word-break: break-all;*/
+    color: #000000;
+}
+
+.blackMiddleBuzz, .whiteMiddleBuzz {
+    font-size: 26px;
+}
+.blackSmallBuzz {
+    font-size: 24px;
+}
+
+.blackTinyBuzz {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.blackSuperTinyBuzz, .yellowSuperTinyBuzz {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.topThirdBuzz {
+    padding-top: 120px;
+}
+
+.topSmallTxt {
+    padding-top: 30px;
+}
+
+.topReadMore {
+    padding-top: 40px;
+}
+
+.svgWidth {
+    padding-left: 5px;
+    width: 15px;
+}
+
+.panelPadding {
+    padding: 35px 25px 35px 25px !important;
+}
+
+.imageThirdMax {
+    width: 100%;
+    max-width: 387px;
+}
+
+.topImg {
+    padding-top: 40px !important;
+}
+
+.marginLoad {
+    padding-right: 40px;
+}
+
+.btnBuzz {
+    margin-top: 45px;
+    padding: 10px 60px 7px 60px;
+    width: 100%;
+}
+
+.btnTwitterBuzz {
+    padding: 10px 10px 7px 10px;
+    width: 100%;
+}
+
+.peaceRight {
+    max-width: 60px;
+    float: right;
+}
+
+.peaceLeft {
+    max-width: 70px;
+    float: left;
+}
+
+.buzzCol {
+    padding-right: 40px;
+}
+
+.peacePadding {
+    padding: 15px;
+}
+
+.btnBg {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 12px 20px;
+    border: 2px solid;
+    background-color: #f7f7f7;
+}
+
+.btnBundle {
+    width: 100%;
+    max-width: 360px;
+}

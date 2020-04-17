@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css?family=Avenir");
+
+@media screen and (max-width: 1558px){
+    .leftTxtWhatDo {
+        padding: 30px 20px 50px 20px !important;
+    }
+}
+@media screen and (max-width: 1239px){
+    .whyFsm {
+        padding: 100px 50px 80px 50px !important;
+        font-size: 24px;
+    }
+
+    .middleWhatDoBackground {
+        padding: 122px 120px 192px 105px !important;
+    }
+
+    .whiteWhatDo, .yellowWhatDo {
+        font-size: 55px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .blackHeader {
+        height: auto !important;
+    }
+
+    .yellowDo, .whiteDo, .blackDo {
+        font-size: 60px !important;
+    }
+
+    .whatDoMax {
+        text-align: center !important;
+    }
+
+    .doTxtTop {
+        padding-top: 50px !important;
+        padding-left: 0 !important;
+        margin: auto !important;
+    }
+
+    .middleWhatDo {
+        padding-top: 100px !important;
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+     }
+
+    .howProcess {
+        padding: 50px !important;
+     }
+
+    .gearWidth {
+        max-width: 100%;
+    }
+
+    .gearDescription {
+        display: none !important;
+    }
+
+    .levelArrange {
+        display: block !important;
+        width: 100% !important;
+        max-width: 1593px !important;
+        text-align: center !important;
+    }
+
+    .whyFsm {
+        padding: 80px 50px 70px 50px !important;
+        font-size: 20px !important;
+    }
+
+    .blackIconMedium {
+        font-size: 24px !important;
+    }
+
+    .columnImageWhatDo, .wrapperWhatDo, .middleWhatDoBackground, .columnBackgroundColor {
+        max-width: 100% !important;
+    }
+
+    .columnBackgroundColor {
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .yellowDo, .whiteDo, .blackDo {
+        font-size: 35px !important;
+    }
+
+    .doTxtTop {
+        padding-top: 150px !important;
+    }
+
+    .middleWhatDo {
+        padding: 160px 20px 50px 20px !important;
+    }
+
+    .whyFsm {
+        padding: 50px 20px 60px 20px !important;
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+
+    .blackIconMedium {
+        font-size: 19px !important;
+    }
+
+    .blackDoSmall {
+        text-align: left !important;
+    }
+
+    .whiteWhatDo, .yellowWhatDo {
+        font-size: 40px !important;
+    }
+
+    .leftTxtWhatDo {
+        padding-bottom: 40px !important;
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .iconTopFsm {
+        padding-top: 30px !important;
+    }
+
+    .iconBottomFsm {
+        padding-top: 30px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .blackDoSmall {
+        text-align: center !important;
+    }
+
+    .whyFsm {
+        padding: 60px 20px 50px 20px !important;
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+
+    .middleWhatDoBackground {
+        padding: 122px 0 192px 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .yellowDo, .whiteDo, .blackDo {
+        font-size: 20px !important;
+    }
+
+    .doTxtTop {
+        padding-top: 180px !important;
+    }
+
+    .middleWhatDo {
+        padding: 130px 5px 50px 5px !important;
+    }
+
+    .howProcess {
+        padding: 10px !important;
+    }
+
+    .btnWhatDo {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        font-size: 13px !important;
+    }
+
+    .whiteWhatDo, .yellowWhatDo {
+        font-size: 25px !important;
+    }
+
+    .leftTxtWhatDo {
+        padding-bottom: 20px !important;
+        font-size: 14px !important;
+        min-width: 250px !important;
+    }
+
+    .whyFsm {
+        min-width: 260px !important;
+    }
+}
+
+/**
+ * navBar
+ */
+body {
+    margin: 0 auto;
+    max-width: 1593px;
+}
+
+.whatDoHeader {
+    margin: 0 auto;
+    max-width: 1593px;
+    height: 4400px;
+    background-position: center;
+    background-size: cover;
+    /*opacity: 0.3;*/
+    background-image: url("../images/whatWeDo/whatWeDoBackground.jpg");
+}
+
+.blackHeader {
+    height: 111px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.6;
+    background-color: #000000;
+}
+
+.doTxtTop {
+    padding-top: 170px;
+    padding-left: 200px;
+    text-align: left !important;
+}
+
+.whatDoMax {
+    width: 100%;
+    max-width: 1150px;
+}
+
+.yellowDo, .whiteDo, .blackDo {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.yellowDo {
+    color: #ff8602 !important;
+}
+
+.whiteDo {
+    color: #ffffff !important;
+}
+
+.blackDo {
+    color: #000000 !important;
+}
+
+.middleWhatDo {
+    padding: 140px 215px 175px 212px;
+    color: #000000;
+}
+
+/**
+ * Vertical String
+ */
+.howProcess {
+    padding: 100px 150px 70px 150px;
+    max-width: 1593px;
+    height: 100%;
+    background-image: url("../images/whatWeDo/iconBundleBackground.png");
+}
+
+.gearDescription {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    width: 100%;
+    max-width: 80px;
+}
+
+.gear {
+    width: 100%;
+    max-width: 1133px;
+}
+
+.levelArrange {
+    display: none;
+}
+
+/**
+ * Why FSM
+ */
+.whyFsm {
+    padding: 100px 215px 100px 212px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.blackDoMedium {
+    font-weight: 600;
+}
+
+.blackDoSmall {
+    padding-right: 20px;
+    font-weight: 900;
+}
+
+.blackIconMedium {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.iconTopFsm {
+    padding-top: 80px;
+}
+
+.iconBottomFsm {
+    padding-bottom: 40px;
+}
+
+/**
+ * footer
+ */
+.footerTop {
+    padding-top: 0 !important;
+}
+
+.rowWhatDoTxt:after {
+    padding-top: 174px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.middleWhatDoBackground {
+    padding: 122px 185px 192px 173px;
+    width: 100%;
+    max-width: 790px;
+    height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/whatWeDo/whatDoFooterBackground.png");
+}
+
+.columnImageWhatDo {
+    float: right;
+    max-width: 50%;
+    height: 741px;
+}
+
+.wrapperWhatDo{
+    overflow: auto;
+    width: 100%;
+    height: 741px;
+    background-color: #626366;
+}
+
+.btnWhatDo {
+    width: 100%;
+    font-size: 24px;
+    color: white;
+}
+
+.btnBottom {
+    margin-bottom: 70px;
+}
+
+.leftTxtWhatDo {
+    padding: 52px 65px 72px 201px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #242423;
+}
+
+.yellowWhatDo, .whiteWhatDo {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.yellowWhatDo, .yellowSmall {
+    color: #ff8602 !important;
+}
+
+.whiteWhatDo {
+    color: #ffffff !important;
+}
+
+.columnBackgroundColor {
+    float: left;
+    max-width: 50%;
+    height: 741px;
+}
+
+.ulPaddingWhat {
+    padding-left: 20px;
+}

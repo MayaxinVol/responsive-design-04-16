@@ -1,0 +1,733 @@
+@import url("https://fonts.googleapis.com/css?family=Avenir");
+
+@media screen and (max-width: 1239px) {
+    .btnHome {
+        padding: 10px 10px 7px 10px !important;
+    }
+
+    .logoFood {
+        width: 320px !important;
+    }
+
+    .yellowWhat, .blackWhat, .whiteHow {
+        font-size: 40px !important;
+    }
+
+    .whiteHome, .yellowHome {
+        font-size: 66px !important;
+    }
+
+    .middleWhat {
+        padding-right: 50px !important;
+        padding-left: 50px !important;
+    }
+
+    .iconTxt {
+        padding-top: 35px !important;
+    }
+
+    .footerBottom {
+        height: auto !important;
+    }
+
+    .iconImage, .iconImageAlabama {
+        padding: 10px 15px!important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        height: auto !important;
+    }
+
+    .navMargin > .w3-bar-item {
+        width: 100%;
+    }
+
+    .logoFood {
+        width: 400px !important;
+        text-align: center !important;
+    }
+
+    .logoFood > .w3-left {
+        display: none !important;
+        text-align: center !important;
+    }
+
+    .btnHome {
+        padding: 10px 10px 7px 10px !important;
+        border-radius: 2px !important;
+        width: 100%;
+    }
+
+    .txtDescription,
+    .txtIndustry {
+        padding-left: 120px !important;
+    }
+
+    .txtDescription {
+        font-size: 55px !important;
+    }
+
+    .txtIndustry {
+        font-size: 29px !important;
+    }
+
+    .middleWhat {
+        padding-top: 100px !important;
+    }
+
+    .v2 {
+        display: none;
+    }
+
+    .columnImage, .middleBackground {
+        max-width: 100% !important;
+    }
+
+    .middleFans {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        text-align: center !important;
+    }
+
+    .ravingFans {
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+
+    .btnWork {
+        text-align: center !important;
+    }
+
+    .bottomPadding {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+
+    .iconImage {
+        padding: 5px 10px !important;
+    }
+
+    .iconImageAlabama {
+        padding: 10px 5px !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .txtDescription,
+    .txtIndustry {
+        padding-left: 80px !important;
+    }
+
+    .txtDescription {
+        font-size: 45px !important;
+    }
+
+    .txtIndustry {
+        font-size: 22px !important;
+    }
+
+    .yellowWhat, .blackWhat, .whiteHow {
+        font-size: 33px!important;
+    }
+
+    .whiteHome, .yellowHome {
+        font-size: 37px !important;
+    }
+
+    .middleWhat {
+        padding-top: 160px !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .txtConsultation {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .txtDescription,
+    .txtIndustry {
+        padding-left: 80px !important;
+    }
+
+    .txtDescription {
+        font-size: 34px !important;
+    }
+
+    .txtIndustry {
+        font-size: 17px !important;
+    }
+
+    .middleWhat {
+        padding-top: 230px !important;
+        text-align: center !important;
+    }
+
+    .middleLine {
+        display: none;
+    }
+
+    .middleTitle, .middleDescription {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .middleTitle, .middleDescription {
+        max-width: 530px !important;
+    }
+
+    .imageMargin {
+        padding-top: 30px;
+        text-align: center !important;
+    }
+
+    .wrapper{
+        overflow: inherit !important;
+        max-width: 100% !important;
+    }
+
+    .txtHow {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .txtDescription, .txtIndustry {
+        padding-left: 0 !important;
+        text-align: center !important;
+    }
+
+    .txtDescription {
+        font-size: 25px !important;
+    }
+
+    .txtIndustry {
+        font-size: 13px !important;
+    }
+
+    .yellowWhat, .blackWhat, .whiteHow {
+        font-size: 18px!important;
+    }
+
+    .whiteHome, .yellowHome {
+        font-size: 22px !important;
+    }
+
+    .middleWhat {
+        padding-top: 260px !important;
+    }
+
+    .rightTxt {
+        padding-left: 10px !important;
+        font-size: 17px !important;
+    }
+
+    .iconTxt {
+        padding-top: 30px !important;
+    }
+
+    .iconMargin {
+        max-width: 100% !important;
+        min-width: 30px;
+    }
+
+    .iconResponsive {
+        max-width: 200px !important;
+    }
+
+    .txtHow {
+        padding-left: 0 !important;
+        font-size: 14px !important;
+    }
+
+    .middleBackground {
+        padding-left: 20px !important;
+    }
+
+    .btnWorkColor {
+        padding: 7px 10px !important;
+        border-radius: 2px !important;
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 14px !important;
+    }
+
+    .btnConsultation {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        border-radius: 2px !important;
+        width: 100% !important;
+        font-size: 13px !important;
+    }
+
+    .iconImage, .iconImageAlabama {
+        padding: 2px 2px!important;
+    }
+
+    .iconTableResponsive {
+        min-width: 300px !important;
+    }
+
+    .stickMargin {
+        min-width: 205px !important;
+        text-align: center !important;
+    }
+
+    .arrowMargin {
+        display: none !important;
+    }
+
+    .txtConsultation {
+        font-size: 13px !important;
+    }
+
+    .footerBottom {
+        min-width: 250px !important;
+    }
+}
+
+/**
+ * navBar
+ */
+* {
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1593px;
+}
+
+.homeHeader {
+    margin: 0 auto;
+    max-width: 1593px;
+    height: 4400px;
+    background-position: center;
+    background-size: cover;
+    opacity: 3;
+    background-image: url("../images/home/headerBackground.jpg");
+}
+
+.header {
+    height: 111px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    background-color: #333333;
+}
+
+.headerPadding {
+    padding: 0;
+}
+
+.navMargin {
+    padding-top: 35px;
+}
+
+.w3-bar .w3-bar-item {
+    padding: 4px 4px !important;
+}
+.flex-container,
+.flex-menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container > div,
+.flex-menu-container >div
+{
+    text-align: center;
+}
+
+.flex-container > div {
+    width: 1593px;
+}
+
+.flex-menu-container >div {
+    width: 1593px;
+}
+
+.logoFood {
+    margin-top: -12px;
+    max-width: 400px;
+}
+
+.logoSize {
+    width: 90%;
+}
+
+.btnHome {
+    padding: 10px 27px 7px 27px;
+    border-radius: 24px;
+    font-size: 12px;
+    color: white;
+}
+
+.btnUnderLine {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.whatMargin {
+    margin-left: 142px;
+}
+
+.txtTop {
+    padding-top: 300px;
+    text-align: left !important;
+}
+
+.txtDescription,
+.txtIndustry {
+    padding-left: 200px;
+    font-weight: bold;
+    color: white;
+}
+
+.txtDescription {
+    font-size: 65px;
+}
+
+.txtIndustry {
+    font-size: 34px;
+}
+
+.middleWhat {
+    padding: 240px 215px 175px 212px;
+    color: #000000;
+}
+
+.whatBottom {
+    padding-bottom: 50px;
+}
+
+.yellowWhat, .blackWhat, .whiteHow, .yellowHome, .whiteHome {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.yellowWhat, .yellowHome {
+    color: #ff8602 !important;
+}
+
+.yellowHome, .whiteHome {
+    font-size: 84px;
+}
+
+.blackWhat {
+    color: black !important;
+}
+
+.v2 {
+    margin-left: auto;
+    border-left: 2px solid #ff8602;
+    height: 160px;
+}
+
+.imageMargin {
+    padding-bottom: 10px;
+    width: 45px;
+}
+
+.account {
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 100%;
+}
+
+hr.lineColor {
+    border: 1px solid #ff8602;
+}
+
+.lineMargin {
+    padding: 20px !important;
+}
+
+.whiteHow, .whiteHome {
+    color: white !important;
+}
+
+.middleTitle {
+    padding-bottom: 10px;
+    max-width: 230px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.middleDescription {
+    max-width: 209px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.rowTxt:after {
+    padding-top: 174px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.rightTxt {
+    padding-left: 100px;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+    background-color: #242423;
+}
+
+.iconTxt {
+    padding-top: 45px;
+}
+
+.columnImage {
+    float: left;
+    max-width: 50%;
+    height: 685px;
+}
+
+.wrapper{
+    overflow: auto;
+    width: 100%;
+    height: 685px;
+    background-color: #626366;
+}
+
+.middleBackground {
+    padding-top: 350px;
+    padding-left: 100px;
+    width: 100%;
+    max-width: 800px;
+    height: 760px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/home/iStock-505413598.jpg");
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ef7b1e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ef7b1e;
+}
+
+.txtHow {
+    padding-left: 33px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white !important;
+}
+
+.iconMargin {
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.middleFans {
+    padding-top: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.ravingFans {
+    padding-bottom: 35px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.btnWorkColor {
+    padding: 10px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white !important;
+}
+
+.btnWork {
+    text-align: right;
+}
+
+.arrowMargin {
+    padding-right: 20px;
+}
+
+.iconImage {
+    padding: 10px 50px;
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+}
+
+.iconTable {
+    padding-top: 80px;
+}
+
+.iconTableResponsive {
+    max-width: 1185px;
+    max-height: 100%;
+}
+
+.tableBorder {
+    border: 1px solid #d2cfcf;
+    border-collapse: collapse;
+}
+
+.thBorder {
+    border: 2px solid #d2cfcf;
+}
+
+.iconImageAlabama {
+    padding: 20px 20px !important;
+    max-width: 100%;
+    max-height: 175px;
+    cursor: pointer;
+}
+
+.scrollMargin {
+    margin-top: 46px;
+}
+
+.stickMargin {
+    margin: auto;
+    max-width: 180px;
+}
+
+.check {
+    margin: 0;
+    border: 1px solid #ff8b1d;
+    width:20px;
+    height:3px;
+    background: #ff8b1d;
+}
+
+.uncheck {
+    margin: 0;
+    border: 1px solid black;
+    width:20px;
+    height:3px;
+    background: black;
+}
+
+.hide {
+    display: none;
+}
+
+.footerTop {
+    padding-top: 100px;
+}
+
+.footer {
+    margin: 0 auto;
+    max-width: 1593px;
+    height: 750px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../images/home/iStock-866626388.jpg");
+}
+
+.footerOpacity {
+    width: 100%;
+    max-width: 1583px;
+    height: 100%;
+    text-align: center;
+}
+
+.footerOpacityReturn {
+    opacity: 1 !important;
+}
+
+.footerBottom {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #242527;
+}
+
+.footerLogo {
+    max-width: 110px;
+    height: 123px;
+}
+
+.footerLogoTop {
+    padding-top: 180px;
+}
+
+.txtBottom {
+    padding-top: 25px;
+}
+
+.btnConsultation {
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.txtConsultation {
+    font-size: 35px;
+    color: white !important;
+}
+
+.bottomPadding {
+    padding-top: 28px;
+    padding-right: 83px;
+    padding-left: 83px;
+}
+
+.bottomTxtWhite {
+    font-size: 18px;
+    font-weight: 600;
+    color: white !important;
+}
+
+.bottomTxtYellow {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    color: #ff8602 !important;
+}
+
+.iconBottomResponsive {
+    padding-right: 10px;
+    text-align: right !important;
+}
+
+.bottomIcon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.arrowUpDown {
+    margin-top: 33px !important;
+    margin-right: -205px;
+    border-radius: 7px;
+    opacity: 0.3;
+    background-color: #282c2c;
+}
+
+.upDownSize {
+    padding: 2px;
+    width: 18px;
+}
